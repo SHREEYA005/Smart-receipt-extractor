@@ -4,8 +4,6 @@ A confidence-aware information extraction system for semi-structured
 receipt images: OCR → field extraction → validation → explainable
 confidence scoring → structured JSON → financial summary.
 
-A confidence-aware information extraction pipeline for semi-structured receipt images.
-
 ## What this actually does
 
 Given a directory of receipt images, the pipeline:
@@ -24,7 +22,7 @@ Given a directory of receipt images, the pipeline:
 
 ## Why it's built this way
 
-The assignment explicitly warns against several tempting shortcuts:
+This project deliberately avoids several tempting shortcuts:
 don't assume preprocessing always helps, don't force uncertain fields
 into confident-looking answers, don't fabricate accuracy numbers. This
 repository tries to take those seriously rather than treat them as
@@ -84,12 +82,12 @@ src/
 tests/             65 tests covering every module above
 experiments/       preprocessing strategy comparison script + results
 configs/           default.yaml - every tunable value in one place
-docs/              1-2 page technical writeup for the assignment deliverable
+docs/              1-2 page technical writeup
 ```
 
 ## OCR engine: why Tesseract
 
-The assignment lists Tesseract, EasyOCR and PaddleOCR as options. This
+Tesseract, EasyOCR and PaddleOCR were all considered. This
 project uses **Tesseract** for a concrete, checkable reason: the other
 two need to download large pretrained model weights from hosts not
 reachable in this project's execution environment, which would make the
@@ -148,7 +146,7 @@ with the full breakdown available in `meta.confidence_components`:
 ```
 
 Status buckets: `high` (≥0.85), `medium` (≥0.70), `low` (<0.70, per the
-assignment's flagging threshold), `missing` (no value found), or
+configured low-confidence flagging threshold), `missing` (no value found), or
 `ambiguous` (multiple materially conflicting candidates - reported with
 alternatives instead of guessing).
 
@@ -178,8 +176,8 @@ where multiple lines contain a "total"-like keyword:
 The extractor picked the wrong candidate here - but instead of quietly
 reporting `2.16` as fact, low confidence, `ambiguous` status, the
 correct alternative, and an explicit consistency warning all surfaced
-together. That is the behaviour the assignment's confidence/reliability
-section is asking for: **flag uncertainty instead of hiding it.**
+together. That is exactly the reliability behavior a confidence-aware
+system should have: **flag uncertainty instead of hiding it.**
 
 ## Results (measured on this dataset)
 
