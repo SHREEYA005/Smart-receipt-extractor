@@ -4,6 +4,8 @@ A confidence-aware information extraction system for semi-structured
 receipt images: OCR → field extraction → validation → explainable
 confidence scoring → structured JSON → financial summary.
 
+**Live demo:** https://smart-receipt-extractor.onrender.com/
+
 ## What this actually does
 
 Given a directory of receipt images, the pipeline:
