@@ -1,0 +1,69 @@
+{
+  "receipt_id": "X51005605333",
+  "store_name": {
+    "value": ") 00. (M) SDN BHD",
+    "confidence": 0.7054,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "Spe @ 13.8?",
+      "price": "44.07",
+      "confidence": 0.8034,
+      "status": "medium"
+    },
+    {
+      "name": "Stat-Great Saving",
+      "price": "7.80",
+      "confidence": 0.78,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 9.4,
+    "confidence": 0.398,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 50.0,
+        "line": "Total RH 3145"
+      }
+    ]
+  },
+  "warnings": [
+    "no valid date found on receipt",
+    "item prices (sum=51.87) do not reconcile with total (total=9.4, delta=42.47); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.195,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 65.04,
+    "ocr_token_count": 113,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.7020000000000001,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 0.5384615384615384,
+        "length_score": 0.68,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.55,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

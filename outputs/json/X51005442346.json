@@ -1,0 +1,67 @@
+{
+  "receipt_id": "X51005442346",
+  "store_name": {
+    "value": "PERNIAGAAN ZHENG HUI",
+    "confidence": 0.9373,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-03-16",
+    "confidence": 0.975,
+    "status": "high"
+  },
+  "items": [
+    {
+      "name": "17.66",
+      "price": "17.66",
+      "confidence": 0.7905,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 0.48,
+    "confidence": 0.4592,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 8.0,
+        "line": "Total (RM) + 8.00"
+      }
+    ]
+  },
+  "warnings": [
+    "item prices (sum=17.66) do not reconcile with total (total=0.48, delta=17.18); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.199,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 68.46,
+    "ocr_token_count": 108,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9066666666666667,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.8,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.856,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

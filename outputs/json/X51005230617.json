@@ -1,0 +1,64 @@
+{
+  "receipt_id": "X51005230617",
+  "store_name": {
+    "value": "Gerbang Alaf Restaurants Sdn Bhd",
+    "confidence": 0.9804,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-01-18",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [],
+  "total_amount": {
+    "value": 11.0,
+    "confidence": 0.5527,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 26.6,
+        "line": "TakeOut Total (incl GST) 26.60"
+      },
+      {
+        "value": 26.6,
+        "line": "Total Rounded 26.60"
+      }
+    ]
+  },
+  "warnings": [
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.333,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 88.94,
+    "ocr_token_count": 122,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9440000000000001,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.9033333333333333,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

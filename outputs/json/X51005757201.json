@@ -1,0 +1,86 @@
+{
+  "receipt_id": "X51005757201",
+  "store_name": {
+    "value": "SHOPPING HOURS",
+    "confidence": 0.5175,
+    "status": "low"
+  },
+  "date": {
+    "value": "2018-02-28",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "DISC 10% 88.91",
+      "price": "88.91",
+      "confidence": 0.8509,
+      "status": "high"
+    },
+    {
+      "name": "DISC 10% 42.25",
+      "price": "42.25",
+      "confidence": 0.8779,
+      "status": "high"
+    },
+    {
+      "name": "DISC 41% @11.16",
+      "price": "11.16",
+      "confidence": 0.8812,
+      "status": "high"
+    },
+    {
+      "name": "Item Count 12 Charye Ant",
+      "price": "11.05",
+      "confidence": 0.8235,
+      "status": "medium"
+    },
+    {
+      "name": "SR @ 6% 83.93",
+      "price": "83.93",
+      "confidence": 0.8943,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 83.93,
+    "confidence": 0.5817,
+    "status": "low"
+  },
+  "warnings": [
+    "store name could not be extracted with confidence",
+    "item prices (sum=237.3) do not reconcile with total (total=83.93, delta=153.37); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.753,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 76.18,
+    "ocr_token_count": 191,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.81,
+        "position_score": -0.16666666666666674,
+        "pattern_score": 1.0,
+        "length_score": 0.56,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.8866666666666667,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

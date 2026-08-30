@@ -1,0 +1,54 @@
+{
+  "receipt_id": "2",
+  "store_name": {
+    "value": "Thank you! ID #:7PB65JWCFZ2 Ba",
+    "confidence": 0.8094,
+    "status": "medium"
+  },
+  "date": {
+    "value": "2020-10-18",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [],
+  "total_amount": {
+    "value": 49.9,
+    "confidence": 0.6217,
+    "status": "low"
+  },
+  "warnings": [
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.613,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 58.77,
+    "ocr_token_count": 189,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.752,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 0.7307692307692307,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.6266666666666666,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

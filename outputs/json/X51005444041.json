@@ -1,0 +1,88 @@
+{
+  "receipt_id": "X51005444041",
+  "store_name": {
+    "value": "BENS INDEPENDENT GROCER SDN. BHD",
+    "confidence": 0.9607,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-03-08"
+      },
+      {
+        "value": "2018-08-03"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "7,.90*3",
+      "price": "23.70",
+      "confidence": 0.8689,
+      "status": "high"
+    },
+    {
+      "name": "19.90*1",
+      "price": "19.90",
+      "confidence": 0.9184,
+      "status": "high"
+    },
+    {
+      "name": "5.80*1",
+      "price": "5.80",
+      "confidence": 0.8869,
+      "status": "high"
+    },
+    {
+      "name": "4.90*1",
+      "price": "4.90",
+      "confidence": 0.8992,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 81.0,
+    "confidence": 0.5963,
+    "status": "low"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "item prices (sum=54.3) do not reconcile with total (total=81.0, delta=26.7); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.561,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 84.16,
+    "ocr_token_count": 147,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9079999999999999,
+        "position_score": 1.0,
+        "pattern_score": 0.9642857142857143,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.945,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

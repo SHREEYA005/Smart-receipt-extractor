@@ -1,0 +1,50 @@
+{
+  "receipt_id": "X51005724624",
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.9541,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [],
+  "total_amount": {
+    "value": 135.68,
+    "confidence": 0.7771,
+    "status": "medium"
+  },
+  "warnings": [
+    "no valid date found on receipt",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.519,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 79.58,
+    "ocr_token_count": 144,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9375,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.84,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.9485714285714286,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

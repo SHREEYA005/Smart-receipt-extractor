@@ -1,0 +1,61 @@
+{
+  "receipt_id": "X51005763958",
+  "store_name": {
+    "value": "SUPER SEVEN CASH & CARRY SCN BHD",
+    "confidence": 0.9433,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-01-27",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "KK KACANGCORENG 3006 @",
+      "price": "5.90",
+      "confidence": 0.7732,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 59.0,
+    "confidence": 0.6619,
+    "status": "low"
+  },
+  "warnings": [
+    "item prices (sum=5.9) do not reconcile with total (total=59.0, delta=53.1); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.096,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 78.5,
+    "ocr_token_count": 129,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.86,
+        "position_score": 1.0,
+        "pattern_score": 0.9615384615384616,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.6675,
+        "keyword_score": 1.0,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

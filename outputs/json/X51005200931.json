@@ -1,0 +1,82 @@
+{
+  "receipt_id": "X51005200931",
+  "store_name": {
+    "value": "BANDAR BARU PERMAS JAYA",
+    "confidence": 0.8056,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2078-02-09"
+      },
+      {
+        "value": "2078-09-02"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "GA 4 85.00",
+      "price": "85.00",
+      "confidence": 0.744,
+      "status": "medium"
+    },
+    {
+      "name": "44 3 B00",
+      "price": "99.00",
+      "confidence": 0.7863,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 24.69,
+    "confidence": 0.4325,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 436.2,
+        "line": "Total (RM); 436.20"
+      }
+    ]
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "item prices (sum=184.0) do not reconcile with total (total=24.69, delta=159.31); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.666,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 63.85,
+    "ocr_token_count": 165,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9075,
+        "position_score": 0.5,
+        "pattern_score": 1.0,
+        "length_score": 0.92,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.7225,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

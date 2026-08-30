@@ -1,0 +1,87 @@
+{
+  "receipt_id": "X51005568911",
+  "store_name": {
+    "value": "MR. D.I.¥. (KUCHAI) SDN BHD",
+    "confidence": 0.8327,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2017-03-08"
+      },
+      {
+        "value": "2017-08-03"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "1 X 29.90",
+      "price": "29.90",
+      "confidence": 0.9105,
+      "status": "high"
+    },
+    {
+      "name": "1X 2.10",
+      "price": "2.10",
+      "confidence": 0.8891,
+      "status": "high"
+    },
+    {
+      "name": "1X 2.50",
+      "price": "2.50",
+      "confidence": 0.9206,
+      "status": "high"
+    },
+    {
+      "name": "1X 3.30",
+      "price": "3.30",
+      "confidence": 0.9015,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 37.8,
+    "confidence": 0.8319,
+    "status": "medium"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations"
+  ],
+  "meta": {
+    "processing_time_sec": 1.469,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 84.48,
+    "ocr_token_count": 130,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.696,
+        "position_score": 1.0,
+        "pattern_score": 0.6956521739130435,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.8675,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

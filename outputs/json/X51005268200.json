@@ -1,0 +1,61 @@
+{
+  "receipt_id": "X51005268200",
+  "store_name": {
+    "value": "ENTERPRISE poets",
+    "confidence": 0.664,
+    "status": "low"
+  },
+  "date": {
+    "value": "2017-06-15",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "SUB-UTAL (6ST)",
+      "price": "15.00",
+      "confidence": 0.747,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 15.0,
+    "confidence": 0.8225,
+    "status": "medium"
+  },
+  "warnings": [
+    "store name could not be extracted with confidence"
+  ],
+  "meta": {
+    "processing_time_sec": 1.775,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 57.08,
+    "ocr_token_count": 144,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.48,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 1.0,
+        "length_score": 0.64,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.83,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

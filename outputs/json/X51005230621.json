@@ -1,0 +1,69 @@
+{
+  "receipt_id": "X51005230621",
+  "store_name": {
+    "value": "SIN LIANHAP SDN BHD ;",
+    "confidence": 0.8711,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": ".000PC x",
+      "price": "2.00",
+      "confidence": 0.858,
+      "status": "high"
+    },
+    {
+      "name": "PC x",
+      "price": "5.30",
+      "confidence": 0.7335,
+      "status": "medium"
+    },
+    {
+      "name": "Tota’ Save Excitwiny SST",
+      "price": "6.69",
+      "confidence": 0.6621,
+      "status": "low"
+    }
+  ],
+  "total_amount": {
+    "value": 7.3,
+    "confidence": 0.6471,
+    "status": "low"
+  },
+  "warnings": [
+    "no valid date found on receipt",
+    "item prices (sum=13.99) do not reconcile with total (total=7.3, delta=6.69); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.222,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 72.11,
+    "ocr_token_count": 116,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.7340000000000001,
+        "position_score": 1.0,
+        "pattern_score": 0.9411764705882353,
+        "length_score": 0.84,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.8483333333333333,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

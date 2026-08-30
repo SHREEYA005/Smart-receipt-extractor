@@ -1,0 +1,73 @@
+{
+  "receipt_id": "X51005605284",
+  "store_name": {
+    "value": "ADVANCO COMPANY",
+    "confidence": 0.9173,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-03-23",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "27499 11.00",
+      "price": "11.00",
+      "confidence": 0.9375,
+      "status": "high"
+    },
+    {
+      "name": "27736 29.00",
+      "price": "29.00",
+      "confidence": 0.9173,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 83.0,
+    "confidence": 0.48,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 78.3,
+        "line": "Code % NetAmt = GST Total —_"
+      }
+    ]
+  },
+  "warnings": [
+    "item prices (sum=40.0) do not reconcile with total (total=83.0, delta=43.0); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.051,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 81.22,
+    "ocr_token_count": 120,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.935,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.6,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.96,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "receipt_id": "X51005749895",
+  "store_name": {
+    "value": "MR. O.02.%. (M) SON BHD",
+    "confidence": 0.6166,
+    "status": "low"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-03-02"
+      },
+      {
+        "value": "2018-02-03"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "1X 8.90",
+      "price": "8.90",
+      "confidence": 0.8992,
+      "status": "high"
+    },
+    {
+      "name": "Fone. 20 =",
+      "price": "0.20",
+      "confidence": 0.5955,
+      "status": "low"
+    },
+    {
+      "name": "166 5X 0.60",
+      "price": "0.60",
+      "confidence": 0.8169,
+      "status": "medium"
+    },
+    {
+      "name": "oA Shh",
+      "price": "72.00",
+      "confidence": 0.678,
+      "status": "low"
+    }
+  ],
+  "total_amount": {
+    "value": 71.9,
+    "confidence": 0.7195,
+    "status": "medium"
+  },
+  "warnings": [
+    "store name could not be extracted with confidence",
+    "date is ambiguous between DD/MM and MM/DD interpretations"
+  ],
+  "meta": {
+    "processing_time_sec": 1.542,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 59.47,
+    "ocr_token_count": 171,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "close",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.638,
+        "position_score": 0.5,
+        "pattern_score": 0.5263157894736842,
+        "length_score": 0.92,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.778,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.7
+      }
+    }
+  }
+}

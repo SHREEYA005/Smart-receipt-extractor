@@ -1,0 +1,63 @@
+{
+  "receipt_id": "X51005676539",
+  "store_name": {
+    "value": "SYARIKAT PERNIAGAAN GIN KEE",
+    "confidence": 0.8764,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-01-10"
+      },
+      {
+        "value": "2018-10-01"
+      }
+    ]
+  },
+  "items": [],
+  "total_amount": {
+    "value": 23.32,
+    "confidence": 0.7754,
+    "status": "medium"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 2.887,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 67.69,
+    "ocr_token_count": 136,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9325,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 1.0,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.9414285714285714,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "receipt_id": "X51005757349",
+  "store_name": {
+    "value": "GOLDEN KEY MAKER",
+    "confidence": 0.8435,
+    "status": "medium"
+  },
+  "date": {
+    "value": "2018-03-24",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "4 4.00 0.00",
+      "price": "4.00",
+      "confidence": 0.9078,
+      "status": "high"
+    },
+    {
+      "name": "1 5.00 0.00",
+      "price": "5.00",
+      "confidence": 0.9078,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 21.0,
+    "confidence": 0.7294,
+    "status": "medium"
+  },
+  "warnings": [
+    "item prices (sum=9.0) do not reconcile with total (total=21.0, delta=12.0); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.027,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 77.91,
+    "ocr_token_count": 94,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.85,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 0.64,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.9375,
+        "keyword_score": 1.0,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

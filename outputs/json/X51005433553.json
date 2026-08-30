@@ -1,0 +1,62 @@
+{
+  "receipt_id": "X51005433553",
+  "store_name": {
+    "value": "YHM Aeon Tebrau City",
+    "confidence": 0.8063,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "SubTotat i",
+      "price": "13.10",
+      "confidence": 0.684,
+      "status": "low"
+    }
+  ],
+  "total_amount": {
+    "value": 13.1,
+    "confidence": 0.664,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 42.36,
+        "line": "Total Exctuded Tax $ 42.36"
+      }
+    ]
+  },
+  "warnings": [
+    "no valid date found on receipt"
+  ],
+  "meta": {
+    "processing_time_sec": 1.057,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 67.7,
+    "ocr_token_count": 118,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.675,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 0.8,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.86,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

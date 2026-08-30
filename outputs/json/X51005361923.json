@@ -1,0 +1,56 @@
+{
+  "receipt_id": "X51005361923",
+  "store_name": {
+    "value": "SWC ENTERPRISE SDN BHD :",
+    "confidence": 0.7664,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "SX8 S006 1 4.20",
+      "price": "4.20",
+      "confidence": 0.7701,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 4.2,
+    "confidence": 0.9,
+    "status": "high"
+  },
+  "warnings": [
+    "no valid date found on receipt"
+  ],
+  "meta": {
+    "processing_time_sec": 1.481,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 65.43,
+    "ocr_token_count": 93,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.664,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 0.95,
+        "length_score": 0.96,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.84,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

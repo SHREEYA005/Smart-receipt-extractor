@@ -1,0 +1,75 @@
+{
+  "receipt_id": "X51005745296",
+  "store_name": {
+    "value": "SUSHI MENTAI - PANDAN INDAH",
+    "confidence": 0.9619,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-04-09"
+      },
+      {
+        "value": "2018-09-04"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Sushi",
+      "price": "1.80",
+      "confidence": 0.9375,
+      "status": "high"
+    },
+    {
+      "name": "Sushi",
+      "price": "2.80",
+      "confidence": 0.9375,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 2.66,
+    "confidence": 0.7356,
+    "status": "medium"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations"
+  ],
+  "meta": {
+    "processing_time_sec": 1.051,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 86.16,
+    "ocr_token_count": 130,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "close",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9159999999999999,
+        "position_score": 1.0,
+        "pattern_score": 0.9565217391304348,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.8425,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.7
+      }
+    }
+  }
+}

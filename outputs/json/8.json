@@ -1,0 +1,59 @@
+{
+  "receipt_id": "8",
+  "store_name": {
+    "value": "es",
+    "confidence": 0.7325,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "A — 55992 GRND TURKEY",
+      "price": "1.47",
+      "confidence": 0.7328,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 89.13,
+    "confidence": 0.5306,
+    "status": "low"
+  },
+  "warnings": [
+    "no valid date found on receipt",
+    "item prices (sum=1.47) do not reconcile with total (total=89.13, delta=87.66); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 4.942,
+    "ocr_pass": "clahe_deskew",
+    "ocr_mean_confidence": 52.83,
+    "ocr_token_count": 146,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize",
+      "clahe",
+      "deskew"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.63,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.08,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.6825,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

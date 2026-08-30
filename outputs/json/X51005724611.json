@@ -1,0 +1,63 @@
+{
+  "receipt_id": "X51005724611",
+  "store_name": {
+    "value": "KEDAI PAPAN YEW CHUAN",
+    "confidence": 0.8006,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2078-03-01"
+      },
+      {
+        "value": "2078-01-03"
+      }
+    ]
+  },
+  "items": [],
+  "total_amount": {
+    "value": 144.16,
+    "confidence": 0.7764,
+    "status": "medium"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.323,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 74.51,
+    "ocr_token_count": 150,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9275,
+        "position_score": 0.5,
+        "pattern_score": 1.0,
+        "length_score": 0.84,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.9457142857142857,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

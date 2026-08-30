@@ -1,0 +1,57 @@
+{
+  "receipt_id": "9",
+  "store_name": {
+    "value": "Ww mCo",
+    "confidence": 0.7705,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "rene WINGS, 25200 40000",
+      "price": "5.48",
+      "confidence": 0.7233,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 121.92,
+    "confidence": 0.475,
+    "status": "low"
+  },
+  "warnings": [
+    "no valid date found on receipt",
+    "item prices (sum=5.48) do not reconcile with total (total=121.92, delta=116.44); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.463,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 59.37,
+    "ocr_token_count": 183,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.67,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.24,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.46,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

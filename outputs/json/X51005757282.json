@@ -1,0 +1,65 @@
+{
+  "receipt_id": "X51005757282",
+  "store_name": {
+    "value": "TSH POWER HARDWARE",
+    "confidence": 0.8183,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2017-09-12"
+      },
+      {
+        "value": "2017-12-09"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "SR=6.00% 23.11",
+      "price": "6.00",
+      "confidence": 0.915,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "total amount could not be located"
+  ],
+  "meta": {
+    "processing_time_sec": 1.238,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 75.22,
+    "ocr_token_count": 107,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.8866666666666667,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 1.0,
+        "length_score": 0.72,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {}
+    }
+  }
+}

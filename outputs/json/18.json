@@ -1,0 +1,55 @@
+{
+  "receipt_id": "18",
+  "store_name": {
+    "value": "SiH aaa NIER HAVEN FL Seaeyte is",
+    "confidence": 0.4915,
+    "status": "low"
+  },
+  "date": {
+    "value": "2021-10-31",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [],
+  "total_amount": {
+    "value": 86.35,
+    "confidence": 0.6581,
+    "status": "low"
+  },
+  "warnings": [
+    "store name could not be extracted with confidence",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 7.573,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 52.85,
+    "ocr_token_count": 275,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.4042857142857143,
+        "position_score": 0.0,
+        "pattern_score": 1.0,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.7725,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

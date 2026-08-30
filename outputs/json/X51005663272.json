@@ -1,0 +1,70 @@
+{
+  "receipt_id": "X51005663272",
+  "store_name": {
+    "value": "WAHIN HARDWARE SDN BHD",
+    "confidence": 0.8383,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2017-12-04"
+      },
+      {
+        "value": "2017-04-12"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "Gross Amount",
+      "price": "40.00",
+      "confidence": 0.8812,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 2.4,
+    "confidence": 0.593,
+    "status": "low"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "item prices (sum=40.0) do not reconcile with total (total=2.4, delta=37.6); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.327,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 79.11,
+    "ocr_token_count": 124,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.875,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 1.0,
+        "length_score": 0.88,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.932,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

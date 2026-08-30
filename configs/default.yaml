@@ -1,0 +1,52 @@
+# Carbon Crunch receipt pipeline - default configuration.
+# Every value here has an equivalent default in src/utils/config.py;
+# this file exists so you can override individual values without
+# touching code. Delete any key you don't want to override.
+
+paths:
+  data_dir: data/receipts
+  output_dir: outputs
+
+ocr:
+  engine: tesseract
+  lang: eng
+  psm: 6
+  oem: 3
+
+preprocessing:
+  strategies: ["raw", "clahe_deskew", "full"]
+  min_acceptable_confidence: 55.0
+  min_tokens: 5
+
+confidence:
+  thresholds:
+    high: 0.85
+    medium: 0.70
+  low_confidence_flag: 0.70
+  weights:
+    store_name:
+      ocr: 0.35
+      position: 0.30
+      pattern: 0.20
+      length: 0.15
+    date:
+      ocr: 0.25
+      pattern: 0.45
+      keyword: 0.30
+      ambiguity_penalty: 0.20
+    total_amount:
+      ocr: 0.25
+      keyword: 0.30
+      pattern: 0.15
+      consistency: 0.30
+    item:
+      ocr: 0.45
+      pattern: 0.35
+      position: 0.20
+
+aggregation:
+  inclusion_confidence_threshold: 0.50
+
+logging:
+  level: INFO
+  log_file: outputs/reports/pipeline.log

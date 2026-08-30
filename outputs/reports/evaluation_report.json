@@ -1,0 +1,55 @@
+{
+  "measured_results": {
+    "receipts_evaluated": 371,
+    "field_coverage": {
+      "store_name": 0.992,
+      "date": 0.596,
+      "total_amount": 0.898,
+      "at_least_one_item": 0.542
+    },
+    "field_status_breakdown": {
+      "store_name": {
+        "high": 204,
+        "medium": 108,
+        "low": 56,
+        "ambiguous": 0,
+        "missing": 3
+      },
+      "date": {
+        "high": 96,
+        "medium": 125,
+        "low": 0,
+        "ambiguous": 107,
+        "missing": 43
+      },
+      "total_amount": {
+        "high": 20,
+        "medium": 123,
+        "low": 103,
+        "ambiguous": 87,
+        "missing": 38
+      }
+    },
+    "ocr_confidence": {
+      "mean": 74.51,
+      "min": 38.47,
+      "max": 90.07
+    },
+    "preprocessing_pass_usage": {
+      "raw": 360,
+      "clahe_deskew": 7,
+      "full": 4
+    },
+    "item_total_consistency_signal_counts": {
+      "insufficient_data": 198,
+      "mismatch": 107,
+      "close": 19,
+      "match": 47
+    },
+    "item_total_consistency_pass_rate": 0.382
+  },
+  "qualitative_observations": {
+    "confidence_calibration": "Not computed. No ground-truth labels are available for this dataset, so we cannot check whether 'confidence' correlates with actual correctness - only with the internal signals (OCR score, keyword match, consistency) that feed it. See docs/technical_documentation.md, Limitations.",
+    "extraction_accuracy": "Not computed as a percentage against ground truth, because no ground truth exists for this dataset. Use the generated manual review sample (outputs/reports/manual_review_sample.csv) to establish real accuracy figures by hand-checking a sample of receipts against their source images."
+  }
+}

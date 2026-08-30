@@ -1,0 +1,58 @@
+{
+  "receipt_id": "0",
+  "store_name": {
+    "value": "WAL*MART",
+    "confidence": 0.845,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": ".41 Ib @ 1 Ib /0.49",
+      "price": "0.41",
+      "confidence": 0.8739,
+      "status": "high"
+    },
+    {
+      "name": "FRAP 001200010451 F",
+      "price": "5.48",
+      "confidence": 0.9132,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "warnings": [
+    "no valid date found on receipt",
+    "total amount could not be located"
+  ],
+  "meta": {
+    "processing_time_sec": 1.017,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 71.29,
+    "ocr_token_count": 73,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.92,
+        "position_score": 1.0,
+        "pattern_score": 0.875,
+        "length_score": 0.32,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {}
+    }
+  }
+}

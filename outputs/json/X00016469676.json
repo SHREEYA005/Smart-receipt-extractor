@@ -1,0 +1,59 @@
+{
+  "receipt_id": "X00016469676",
+  "store_name": {
+    "value": "tan chay yee",
+    "confidence": 0.901,
+    "status": "high"
+  },
+  "date": {
+    "value": "2019-01-23",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "1 20.00",
+      "price": "20.00",
+      "confidence": 0.8846,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 20.0,
+    "confidence": 0.9544,
+    "status": "high"
+  },
+  "warnings": [],
+  "meta": {
+    "processing_time_sec": 0.869,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 81.1,
+    "ocr_token_count": 81,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.94,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.48,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.8175,
+        "keyword_score": 1.0,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

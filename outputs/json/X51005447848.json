@@ -1,0 +1,92 @@
+{
+  "receipt_id": "X51005447848",
+  "store_name": {
+    "value": "LIAN CHI PU TIAN VEGETARIAN",
+    "confidence": 0.9311,
+    "status": "high"
+  },
+  "date": {
+    "value": "2026-12-17",
+    "confidence": 0.975,
+    "status": "high"
+  },
+  "items": [
+    {
+      "name": "| (S) @",
+      "price": "15.90",
+      "confidence": 0.924,
+      "status": "high"
+    },
+    {
+      "name": "(S) @",
+      "price": "13.90",
+      "confidence": 0.9173,
+      "status": "high"
+    },
+    {
+      "name": "(12 PCS) @",
+      "price": "12.00",
+      "confidence": 0.9315,
+      "status": "high"
+    },
+    {
+      "name": "(B) @",
+      "price": "1.50",
+      "confidence": 0.9217,
+      "status": "high"
+    },
+    {
+      "name": "Net Amt",
+      "price": "53.55",
+      "confidence": 0.9037,
+      "status": "high"
+    },
+    {
+      "name": "@ Oo 2.87",
+      "price": "2.87",
+      "confidence": 0.7699,
+      "status": "medium"
+    },
+    {
+      "name": "| SR @ 6% 17.80",
+      "price": "17.80",
+      "confidence": 0.8978,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "warnings": [
+    "total amount could not be located"
+  ],
+  "meta": {
+    "processing_time_sec": 1.159,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 86.12,
+    "ocr_token_count": 124,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.946,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {}
+    }
+  }
+}

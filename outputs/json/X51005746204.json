@@ -1,0 +1,63 @@
+{
+  "receipt_id": "X51005746204",
+  "store_name": {
+    "value": "Stbaig Perdana,",
+    "confidence": 0.5632,
+    "status": "low"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "465920 143.70",
+      "price": "143.70",
+      "confidence": 0.8936,
+      "status": "high"
+    },
+    {
+      "name": "184810 165.00",
+      "price": "165.00",
+      "confidence": 0.8734,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 308.7,
+    "confidence": 0.8175,
+    "status": "medium"
+  },
+  "warnings": [
+    "store name could not be extracted with confidence",
+    "no valid date found on receipt"
+  ],
+  "meta": {
+    "processing_time_sec": 0.927,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 64.14,
+    "ocr_token_count": 101,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.25,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 0.9285714285714286,
+        "length_score": 0.6,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.81,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

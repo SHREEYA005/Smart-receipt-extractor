@@ -1,0 +1,77 @@
+{
+  "receipt_id": "X51005685357",
+  "store_name": {
+    "value": "for Stay: Leary Fog Feete",
+    "confidence": 0.7508,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-03-02"
+      },
+      {
+        "value": "2018-02-03"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "7.00",
+      "price": "7.00",
+      "confidence": 0.9195,
+      "status": "high"
+    },
+    {
+      "name": "ZRL @0. 00% 7.00",
+      "price": "7.00",
+      "confidence": 0.8763,
+      "status": "high"
+    },
+    {
+      "name": "SR @6. 00% 68. 25",
+      "price": "4.10",
+      "confidence": 0.8902,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "total amount could not be located"
+  ],
+  "meta": {
+    "processing_time_sec": 1.34,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 83.36,
+    "ocr_token_count": 121,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.45799999999999996,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 0.9523809523809523,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {}
+    }
+  }
+}

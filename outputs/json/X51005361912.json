@@ -1,0 +1,64 @@
+{
+  "receipt_id": "X51005361912",
+  "store_name": {
+    "value": "SELANGOR DARUL EHSAN “ \\J\\\\",
+    "confidence": 0.7133,
+    "status": "medium"
+  },
+  "date": {
+    "value": "2018-01-29",
+    "confidence": 0.975,
+    "status": "high"
+  },
+  "items": [],
+  "total_amount": {
+    "value": 1.05,
+    "confidence": 0.564,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 0.06,
+        "line": "TOTAL TAX : 0.06"
+      },
+      {
+        "value": 1.0,
+        "line": "TOTAL: 1.00 0.06"
+      }
+    ]
+  },
+  "warnings": [
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.671,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 71.29,
+    "ocr_token_count": 134,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.5660000000000001,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 0.8260869565217391,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.96,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

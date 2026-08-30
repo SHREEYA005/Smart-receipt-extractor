@@ -1,0 +1,63 @@
+{
+  "receipt_id": "X51005442383",
+  "store_name": {
+    "value": "CARREFOUR RESTAURANT",
+    "confidence": 0.878,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "4 10.00",
+      "price": "10.00",
+      "confidence": 0.8126,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 13.8,
+    "confidence": 0.472,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 13.0,
+        "line": "TOTAL POINTS: 0.00"
+      }
+    ]
+  },
+  "warnings": [
+    "no valid date found on receipt",
+    "item prices (sum=10.0) do not reconcile with total (total=13.8, delta=3.8); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 0.97,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 62.45,
+    "ocr_token_count": 91,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.88,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 0.8,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.92,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

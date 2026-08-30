@@ -1,0 +1,62 @@
+{
+  "receipt_id": "X51005433548",
+  "store_name": {
+    "value": "PASAR MINI JIW SENG",
+    "confidence": 0.8554,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-03-03",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "TLR",
+      "price": "33.80",
+      "confidence": 0.7215,
+      "status": "medium"
+    },
+    {
+      "name": "ER. (04) 20.20",
+      "price": "20.20",
+      "confidence": 0.8272,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "warnings": [
+    "total amount could not be located"
+  ],
+  "meta": {
+    "processing_time_sec": 1.065,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 67.32,
+    "ocr_token_count": 107,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.8325,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 0.76,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {}
+    }
+  }
+}

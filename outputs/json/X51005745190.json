@@ -1,0 +1,101 @@
+{
+  "receipt_id": "X51005745190",
+  "store_name": {
+    "value": "SUPER SEVEN CASH & CARRY SDN BHD",
+    "confidence": 0.8953,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2618-02-12"
+      },
+      {
+        "value": "2618-12-02"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "LORY FLITLET 300UP(3)6KG @",
+      "price": "63.00",
+      "confidence": 0.8531,
+      "status": "high"
+    },
+    {
+      "name": "BERAS GIRI-BIRI VOKG 5% [STIMEWA",
+      "price": "653.56",
+      "confidence": 0.783,
+      "status": "medium"
+    },
+    {
+      "name": "BaWwaNG BESAR [NDIA/CINAa GUNI @",
+      "price": "8.50",
+      "confidence": 0.8061,
+      "status": "medium"
+    },
+    {
+      "name": "CARAS CILI 1KG @",
+      "price": "19.50",
+      "confidence": 0.7564,
+      "status": "medium"
+    },
+    {
+      "name": "fILY BUH 3KG KCK @",
+      "price": "7.90",
+      "confidence": 0.7611,
+      "status": "medium"
+    },
+    {
+      "name": "Nel Jota! RH",
+      "price": "367.10",
+      "confidence": 0.729,
+      "status": "medium"
+    },
+    {
+      "name": "TR O04} 359,20",
+      "price": "359.20",
+      "confidence": 0.8081,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "total amount could not be located"
+  ],
+  "meta": {
+    "processing_time_sec": 1.317,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 64.41,
+    "ocr_token_count": 181,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.8657142857142857,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 0.9615384615384616,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {}
+    }
+  }
+}

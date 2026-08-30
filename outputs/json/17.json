@@ -1,0 +1,127 @@
+{
+  "receipt_id": "17",
+  "store_name": {
+    "value": "fo win $1000",
+    "confidence": 0.7312,
+    "status": "medium"
+  },
+  "date": {
+    "value": "2017-01-18",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": ".75 lb @ 1 1b /0,.54",
+      "price": "1.75",
+      "confidence": 0.8391,
+      "status": "medium"
+    },
+    {
+      "name": "BEVERAGE 003120002133 F",
+      "price": "2.00",
+      "confidence": 0.8016,
+      "status": "medium"
+    },
+    {
+      "name": "S ran POM 003120027015 F",
+      "price": "2.00",
+      "confidence": 0.8391,
+      "status": "medium"
+    },
+    {
+      "name": "STRWBRY CC 076471782200 F",
+      "price": "0.96",
+      "confidence": 0.8565,
+      "status": "high"
+    },
+    {
+      "name": "CAMPARI TOM 0734475012131",
+      "price": "2.98",
+      "confidence": 0.8655,
+      "status": "high"
+    },
+    {
+      "name": "KFT SINGLES 002100061526 F",
+      "price": "3.78",
+      "confidence": 0.8812,
+      "status": "high"
+    },
+    {
+      "name": "004460098211 F",
+      "price": "3.98",
+      "confidence": 0.8862,
+      "status": "high"
+    },
+    {
+      "name": "AT 1 FOR 0.44",
+      "price": "0.44",
+      "confidence": 0.7736,
+      "status": "medium"
+    },
+    {
+      "name": "PILLS WHITE 068113113619 F",
+      "price": "1.00",
+      "confidence": 0.9173,
+      "status": "high"
+    },
+    {
+      "name": "SH NYLON COL 007417024836",
+      "price": "2.97",
+      "confidence": 0.9293,
+      "status": "high"
+    },
+    {
+      "name": "HAND CLEANER 004125100005",
+      "price": "1.67",
+      "confidence": 0.906,
+      "status": "high"
+    },
+    {
+      "name": "INJECTR CLNR 004980710003",
+      "price": "8.87",
+      "confidence": 0.8925,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 38.68,
+    "confidence": 0.5588,
+    "status": "low"
+  },
+  "warnings": [
+    "item prices (sum=32.4) do not reconcile with total (total=38.68, delta=6.28); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.388,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 71.98,
+    "ocr_token_count": 173,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.8833333333333333,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 0.5,
+        "length_score": 0.48,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.795,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

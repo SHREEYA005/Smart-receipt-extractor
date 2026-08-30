@@ -1,0 +1,61 @@
+{
+  "receipt_id": "X51005741944",
+  "store_name": {
+    "value": ". BHPetro] Subang Airport",
+    "confidence": 0.7691,
+    "status": "medium"
+  },
+  "date": {
+    "value": "2018-01-18",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "infiniti 97 E4MP3 2.570 16.32",
+      "price": "16.32",
+      "confidence": 0.78,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 41.95,
+    "confidence": 0.6325,
+    "status": "low"
+  },
+  "warnings": [
+    "item prices (sum=16.32) do not reconcile with total (total=41.95, delta=25.63); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 0.982,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 75.75,
+    "ocr_token_count": 108,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.535,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 0.9090909090909091,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.79,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

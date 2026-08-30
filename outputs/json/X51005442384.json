@@ -1,0 +1,65 @@
+{
+  "receipt_id": "X51005442384",
+  "store_name": {
+    "value": "UNIHAKKA INTERNATIONAL SDN BHD",
+    "confidence": 0.8816,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-03-19",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "$2.70 1 $",
+      "price": "2.70",
+      "confidence": 0.915,
+      "status": "high"
+    },
+    {
+      "name": "$5.50 1 $",
+      "price": "5.50",
+      "confidence": 0.9045,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 8.2,
+    "confidence": 0.8992,
+    "status": "high"
+  },
+  "warnings": [],
+  "meta": {
+    "processing_time_sec": 0.846,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 71.68,
+    "ocr_token_count": 91,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9475,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 1.0,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.8366666666666667,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

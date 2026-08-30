@@ -1,0 +1,158 @@
+{
+  "receipt_id": "X51005568855",
+  "store_name": {
+    "value": "CHERAS LEISURE MALL",
+    "confidence": 0.743,
+    "status": "medium"
+  },
+  "date": {
+    "value": "2017-12-23",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "Shoe White SWI1Q1#2S",
+      "price": "4.29",
+      "confidence": 0.8718,
+      "status": "high"
+    },
+    {
+      "name": "MR C. TAPE REF WH624R",
+      "price": "31.99",
+      "confidence": 0.906,
+      "status": "high"
+    },
+    {
+      "name": "FC GRIP BPO.5 BLK PK",
+      "price": "4.20",
+      "confidence": 0.9047,
+      "status": "high"
+    },
+    {
+      "name": "FC GRIP BPO.5 BLU PK",
+      "price": "4.20",
+      "confidence": 0.9182,
+      "status": "high"
+    },
+    {
+      "name": "M GlueStick 7em 4's",
+      "price": "10.59",
+      "confidence": 0.87,
+      "status": "high"
+    },
+    {
+      "name": "PU F/C B/L A4 450's",
+      "price": "16.99",
+      "confidence": 0.9169,
+      "status": "high"
+    },
+    {
+      "name": "STAT-PROMO SPECIAL",
+      "price": "2.99",
+      "confidence": 0.9,
+      "status": "high"
+    },
+    {
+      "name": "PLUS stapler set 010E",
+      "price": "8.89",
+      "confidence": 0.9015,
+      "status": "high"
+    },
+    {
+      "name": "FC EXM.ERS 4S 187016",
+      "price": "3.90",
+      "confidence": 0.9052,
+      "status": "high"
+    },
+    {
+      "name": "STAT-PROMO SPECIAL",
+      "price": "0.91",
+      "confidence": 0.7995,
+      "status": "medium"
+    },
+    {
+      "name": "S4 SUPER S M AKT SPM [BK]",
+      "price": "9.90",
+      "confidence": 0.9195,
+      "status": "high"
+    },
+    {
+      "name": "Rev-BTS Promotion",
+      "price": "1.49",
+      "confidence": 0.906,
+      "status": "high"
+    },
+    {
+      "name": "SUCCESS SPM ADD MATHS [BK]",
+      "price": "37.00",
+      "confidence": 0.8507,
+      "status": "high"
+    },
+    {
+      "name": "Rev-BTS Promotion",
+      "price": "7.40",
+      "confidence": 0.8955,
+      "status": "high"
+    },
+    {
+      "name": "SUCCESS SPM SCI [BK]",
+      "price": "35.70",
+      "confidence": 0.921,
+      "status": "high"
+    },
+    {
+      "name": "Rev-BTS Promotion",
+      "price": "7.14",
+      "confidence": 0.837,
+      "status": "medium"
+    },
+    {
+      "name": "T @ 6% 69. 90",
+      "price": "4.18",
+      "confidence": 0.8685,
+      "status": "high"
+    },
+    {
+      "name": "Z@ 0% 66.57",
+      "price": "66.57",
+      "confidence": 0.8857,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "warnings": [
+    "total amount could not be located"
+  ],
+  "meta": {
+    "processing_time_sec": 1.956,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 84.36,
+    "ocr_token_count": 222,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.94,
+        "position_score": 0.33333333333333337,
+        "pattern_score": 1.0,
+        "length_score": 0.76,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {}
+    }
+  }
+}

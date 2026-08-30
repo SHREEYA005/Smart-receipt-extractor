@@ -1,0 +1,61 @@
+{
+  "receipt_id": "X51005685355",
+  "store_name": {
+    "value": "RESTORAN IBRAHIM MAJU SB",
+    "confidence": 0.9239,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-03-19",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "| MAKANAN 1.40",
+      "price": "1.40",
+      "confidence": 0.816,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 5.3,
+    "confidence": 0.5842,
+    "status": "low"
+  },
+  "warnings": [
+    "item prices (sum=1.4) do not reconcile with total (total=5.3, delta=3.9); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.413,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 85.09,
+    "ocr_token_count": 117,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9425,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 0.96,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.8966666666666667,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

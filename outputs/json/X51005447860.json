@@ -1,0 +1,51 @@
+{
+  "receipt_id": "X51005447860",
+  "store_name": {
+    "value": "“SHOPPING HOURS",
+    "confidence": 0.5865,
+    "status": "low"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [],
+  "total_amount": {
+    "value": 17.76,
+    "confidence": 0.748,
+    "status": "medium"
+  },
+  "warnings": [
+    "store name could not be extracted with confidence",
+    "no valid date found on receipt",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 2.084,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 77.62,
+    "ocr_token_count": 118,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.745,
+        "position_score": 0.16666666666666663,
+        "pattern_score": 0.9285714285714286,
+        "length_score": 0.6,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.8320000000000001,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

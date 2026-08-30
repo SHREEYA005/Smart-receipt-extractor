@@ -1,0 +1,61 @@
+{
+  "receipt_id": "X51005568866",
+  "store_name": {
+    "value": "CHERAS LEISURE MALL",
+    "confidence": 0.6918,
+    "status": "low"
+  },
+  "date": {
+    "value": "2017-09-03",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "pc @ 1.40",
+      "price": "1.40",
+      "confidence": 0.8799,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 0.01,
+    "confidence": 0.76,
+    "status": "medium"
+  },
+  "warnings": [
+    "store name could not be extracted with confidence"
+  ],
+  "meta": {
+    "processing_time_sec": 1.622,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 75.69,
+    "ocr_token_count": 178,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "close",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9366666666666668,
+        "position_score": 0.16666666666666663,
+        "pattern_score": 1.0,
+        "length_score": 0.76,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.94,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.7
+      }
+    }
+  }
+}

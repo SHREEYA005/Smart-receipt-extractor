@@ -1,0 +1,82 @@
+{
+  "receipt_id": "X51005200938",
+  "store_name": {
+    "value": "PERNIAGAAN ZHENG HUI",
+    "confidence": 0.815,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-02-12"
+      },
+      {
+        "value": "2018-12-02"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "oA 3 7.00",
+      "price": "7.00",
+      "confidence": 0.8511,
+      "status": "high"
+    },
+    {
+      "name": "Orda GBo1 1800",
+      "price": "48.00",
+      "confidence": 0.6214,
+      "status": "low"
+    }
+  ],
+  "total_amount": {
+    "value": 0.02,
+    "confidence": 0.4415,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 112.46,
+        "line": "Total (RM) : 112.46"
+      }
+    ]
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "item prices (sum=55.0) do not reconcile with total (total=0.02, delta=54.98); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.662,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 63.31,
+    "ocr_token_count": 157,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.7,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 0.8,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.7675,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

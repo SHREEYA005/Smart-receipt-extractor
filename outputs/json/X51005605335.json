@@ -1,0 +1,70 @@
+{
+  "receipt_id": "X51005605335",
+  "store_name": {
+    "value": "CO. (M) SDN BHD",
+    "confidence": 0.8681,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-01-12"
+      },
+      {
+        "value": "2018-12-01"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "pc 6 13.69",
+      "price": "13.69",
+      "confidence": 0.8538,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 21.0,
+    "confidence": 0.5917,
+    "status": "low"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "item prices (sum=13.69) do not reconcile with total (total=21.0, delta=7.31); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.387,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 83.52,
+    "ocr_token_count": 117,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9375,
+        "position_score": 1.0,
+        "pattern_score": 0.75,
+        "length_score": 0.6,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.9266666666666667,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "receipt_id": "X51005568891",
+  "store_name": {
+    "value": "HON HWA HARDWARE TRADING",
+    "confidence": 0.9774,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2017-02-08"
+      },
+      {
+        "value": "2017-08-02"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "SR SR 261.32 15.68",
+      "price": "261.32",
+      "confidence": 0.8844,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 261.32,
+    "confidence": 0.671,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 277.9,
+        "line": "44 Type: 10 Total 277.90"
+      },
+      {
+        "value": 277.0,
+        "line": "Total Inclusive GST: 277.00"
+      }
+    ]
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations"
+  ],
+  "meta": {
+    "processing_time_sec": 1.678,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 82.28,
+    "ocr_token_count": 161,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9525,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.96,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.895,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

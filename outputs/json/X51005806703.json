@@ -1,0 +1,70 @@
+{
+  "receipt_id": "X51005806703",
+  "store_name": {
+    "value": "Cash Saie",
+    "confidence": 0.8725,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-02-06"
+      },
+      {
+        "value": "2018-06-02"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "PLAST!\" BOWL",
+      "price": "2.80",
+      "confidence": 0.8227,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 109.7,
+    "confidence": 0.5775,
+    "status": "low"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "item prices (sum=2.8) do not reconcile with total (total=109.7, delta=106.9); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.347,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 73.0,
+    "ocr_token_count": 132,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.91,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.36,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.87,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

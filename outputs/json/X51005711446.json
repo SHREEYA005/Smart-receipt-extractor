@@ -1,0 +1,69 @@
+{
+  "receipt_id": "X51005711446",
+  "store_name": {
+    "value": "RESTORAN WAN SHENG",
+    "confidence": 0.9417,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-03-10"
+      },
+      {
+        "value": "2018-10-03"
+      }
+    ]
+  },
+  "items": [],
+  "total_amount": {
+    "value": 7.2,
+    "confidence": 0.563,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 6.81,
+        "line": "Total (Excluding GST): 6.81"
+      }
+    ]
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.197,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 85.28,
+    "ocr_token_count": 88,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9533333333333333,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.72,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.955,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

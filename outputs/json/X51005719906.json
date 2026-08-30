@@ -1,0 +1,83 @@
+{
+  "receipt_id": "X51005719906",
+  "store_name": {
+    "value": "Zen and coffee 28 S/B",
+    "confidence": 0.919,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-03-25",
+    "confidence": 0.975,
+    "status": "high"
+  },
+  "items": [
+    {
+      "name": "Saba shioyaki wazen (2@mins)",
+      "price": "26.00",
+      "confidence": 0.8976,
+      "status": "high"
+    },
+    {
+      "name": "Unagi don",
+      "price": "28.00",
+      "confidence": 0.9078,
+      "status": "high"
+    },
+    {
+      "name": "Spicy ASARI Pasta",
+      "price": "19.00",
+      "confidence": 0.9097,
+      "status": "high"
+    },
+    {
+      "name": "Ebi Mentai Pasta",
+      "price": "22.00",
+      "confidence": 0.9165,
+      "status": "high"
+    },
+    {
+      "name": "Jasmine Green Tea",
+      "price": "10.00",
+      "confidence": 0.9233,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 105.0,
+    "confidence": 0.8375,
+    "status": "medium"
+  },
+  "warnings": [],
+  "meta": {
+    "processing_time_sec": 1.33,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 80.52,
+    "ocr_token_count": 137,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.938,
+        "position_score": 1.0,
+        "pattern_score": 0.8235294117647058,
+        "length_score": 0.84,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.89,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

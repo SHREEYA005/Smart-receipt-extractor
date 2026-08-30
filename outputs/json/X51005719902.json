@@ -1,0 +1,64 @@
+{
+  "receipt_id": "X51005719902",
+  "store_name": {
+    "value": "Tax Inrvoice ‘",
+    "confidence": 0.4808,
+    "status": "low"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "Oty g",
+      "price": "25.15",
+      "confidence": 0.747,
+      "status": "medium"
+    },
+    {
+      "name": "Pay",
+      "price": "25.15",
+      "confidence": 0.9217,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 1.42,
+    "confidence": 0.5733,
+    "status": "low"
+  },
+  "warnings": [
+    "store name could not be extracted with confidence",
+    "no valid date found on receipt",
+    "item prices (sum=50.3) do not reconcile with total (total=1.42, delta=48.88); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.196,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 65.15,
+    "ocr_token_count": 139,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.61,
+        "position_score": 0.0,
+        "pattern_score": 0.9166666666666666,
+        "length_score": 0.56,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.8533333333333333,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "receipt_id": "X51005568914",
+  "store_name": {
+    "value": "IKANO HANDEL SDN BHD",
+    "confidence": 0.9455,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2017-08-09"
+      },
+      {
+        "value": "2017-09-08"
+      }
+    ]
+  },
+  "items": [],
+  "total_amount": {
+    "value": 99.8,
+    "confidence": 0.6758,
+    "status": "low"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.115,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 82.63,
+    "ocr_token_count": 89,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.93,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.8,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.8433333333333333,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

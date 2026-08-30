@@ -1,0 +1,62 @@
+{
+  "receipt_id": "X51005757199",
+  "store_name": {
+    "value": "POPULAR BOOK",
+    "confidence": 0.7852,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "W/ENV4. 5%9. 5",
+      "price": "1.90",
+      "confidence": 0.7998,
+      "status": "medium"
+    },
+    {
+      "name": "Uni P&S Env 4. 5X9. 75",
+      "price": "2.10",
+      "confidence": 0.8419,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 4.0,
+    "confidence": 0.8533,
+    "status": "high"
+  },
+  "warnings": [
+    "no valid date found on receipt"
+  ],
+  "meta": {
+    "processing_time_sec": 1.115,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 80.15,
+    "ocr_token_count": 116,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.895,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 1.0,
+        "length_score": 0.48,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.9533333333333333,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

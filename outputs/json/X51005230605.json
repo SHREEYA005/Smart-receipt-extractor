@@ -1,0 +1,75 @@
+{
+  "receipt_id": "X51005230605",
+  "store_name": {
+    "value": "PETRON BKT LANJAN SB",
+    "confidence": 0.9166,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.28,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-02-01"
+      },
+      {
+        "value": "2018-01-02"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "A 2 double ,mint te",
+      "price": "3.00",
+      "confidence": 0.9233,
+      "status": "high"
+    },
+    {
+      "name": "& 1 sandwich venil]",
+      "price": "1.90",
+      "confidence": 0.8322,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 4.9,
+    "confidence": 0.8088,
+    "status": "medium"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations"
+  ],
+  "meta": {
+    "processing_time_sec": 1.084,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 88.62,
+    "ocr_token_count": 89,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.8475,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.8,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.775,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

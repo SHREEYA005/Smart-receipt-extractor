@@ -1,0 +1,61 @@
+{
+  "receipt_id": "X51005230648",
+  "store_name": {
+    "value": "BANDAR UTAMA BATANG KALI,",
+    "confidence": 0.8664,
+    "status": "high"
+  },
+  "date": {
+    "value": "2018-01-29",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "dae Adjustment",
+      "price": "0.01",
+      "confidence": 0.7575,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 6.35,
+    "confidence": 0.58,
+    "status": "low"
+  },
+  "warnings": [
+    "item prices (sum=0.01) do not reconcile with total (total=6.35, delta=6.34); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.355,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 72.52,
+    "ocr_token_count": 106,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.93,
+        "position_score": 0.6666666666666667,
+        "pattern_score": 0.9545454545454546,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.88,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

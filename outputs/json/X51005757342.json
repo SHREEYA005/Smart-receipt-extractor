@@ -1,0 +1,79 @@
+{
+  "receipt_id": "X51005757342",
+  "store_name": {
+    "value": "MR. D.I.Y. (M) SDN BHD",
+    "confidence": 0.8009,
+    "status": "medium"
+  },
+  "date": {
+    "value": "2018-03-23",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [
+    {
+      "name": "1X 1.80",
+      "price": "1.80",
+      "confidence": 0.9375,
+      "status": "high"
+    },
+    {
+      "name": "2X 2.10",
+      "price": "2.10",
+      "confidence": 0.9375,
+      "status": "high"
+    },
+    {
+      "name": "1X 0.20",
+      "price": "0.20",
+      "confidence": 0.9364,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 0.35,
+    "confidence": 0.4757,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 6.2,
+        "line": "Total Incl. GST&6% RM 6.20"
+      }
+    ]
+  },
+  "warnings": [
+    "item prices (sum=4.1) do not reconcile with total (total=0.35, delta=3.75); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 1.17,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 81.94,
+    "ocr_token_count": 115,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.816,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 0.6666666666666666,
+        "length_score": 0.88,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {
+        "ocr_score": 0.9385714285714286,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

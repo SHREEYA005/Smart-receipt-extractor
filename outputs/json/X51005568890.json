@@ -1,0 +1,56 @@
+{
+  "receipt_id": "X51005568890",
+  "store_name": {
+    "value": "HON HWA HARDWARE TRADING",
+    "confidence": 0.8488,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [],
+  "total_amount": {
+    "value": 5.0,
+    "confidence": 0.5495,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 4.72,
+        "line": "| Total 4.72 0.28 500"
+      }
+    ]
+  },
+  "warnings": [
+    "no valid date found on receipt",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.217,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 63.53,
+    "ocr_token_count": 100,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.585,
+        "position_score": 1.0,
+        "pattern_score": 1.0,
+        "length_score": 0.96,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.8875,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.5
+      }
+    }
+  }
+}

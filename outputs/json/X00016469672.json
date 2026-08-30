@@ -1,0 +1,111 @@
+{
+  "receipt_id": "X00016469672",
+  "store_name": {
+    "value": "SOON HUAT MACHINERY ENTERPRISE",
+    "confidence": 0.929,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2019-01-11"
+      },
+      {
+        "value": "2019-11-01"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "1 80.00 80.00",
+      "price": "80.00",
+      "confidence": 0.906,
+      "status": "high"
+    },
+    {
+      "name": "1 160.00 160.00",
+      "price": "160.00",
+      "confidence": 0.7827,
+      "status": "medium"
+    },
+    {
+      "name": "+ 14.00 17.00",
+      "price": "14.00",
+      "confidence": 0.7971,
+      "status": "medium"
+    },
+    {
+      "name": "1 1000 10.00",
+      "price": "10.00",
+      "confidence": 0.8331,
+      "status": "medium"
+    },
+    {
+      "name": "1 6.00 © 6.00",
+      "price": "6.00",
+      "confidence": 0.789,
+      "status": "medium"
+    },
+    {
+      "name": "1 8.00 = 8.00",
+      "price": "8.00",
+      "confidence": 0.804,
+      "status": "medium"
+    },
+    {
+      "name": "1 10.00 10.00",
+      "price": "10.00",
+      "confidence": 0.8574,
+      "status": "high"
+    },
+    {
+      "name": "2 18.00 18.00",
+      "price": "18.00",
+      "confidence": 0.8169,
+      "status": "medium"
+    }
+  ],
+  "total_amount": {
+    "value": 327.0,
+    "confidence": 0.7556,
+    "status": "medium"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations"
+  ],
+  "meta": {
+    "processing_time_sec": 1.556,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 76.32,
+    "ocr_token_count": 152,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "close",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.94,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 1.0,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.6225,
+        "keyword_score": 0.8,
+        "pattern_score": 1.0,
+        "consistency_score": 0.7
+      }
+    }
+  }
+}

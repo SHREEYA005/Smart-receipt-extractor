@@ -1,0 +1,76 @@
+{
+  "receipt_id": "X51005746140",
+  "store_name": {
+    "value": "YONG CEN ENTERPRISE",
+    "confidence": 0.9,
+    "status": "high"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.46,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": "2018-03-02"
+      },
+      {
+        "value": "2018-02-03"
+      }
+    ]
+  },
+  "items": [
+    {
+      "name": "24 2.33",
+      "price": "2.33",
+      "confidence": 0.8846,
+      "status": "high"
+    },
+    {
+      "name": "2 2.00",
+      "price": "2.00",
+      "confidence": 0.9128,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 63.35,
+    "confidence": 0.5383,
+    "status": "low"
+  },
+  "warnings": [
+    "date is ambiguous between DD/MM and MM/DD interpretations",
+    "item prices (sum=4.33) do not reconcile with total (total=63.35, delta=59.02); could be tax/discount/rounding or an extraction error"
+  ],
+  "meta": {
+    "processing_time_sec": 0.904,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 82.0,
+    "ocr_token_count": 86,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "mismatch",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.96,
+        "position_score": 0.8333333333333334,
+        "pattern_score": 1.0,
+        "length_score": 0.76,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 0.3,
+        "keyword_score": 1.0,
+        "ambiguity_penalty": 0.2
+      },
+      "total_amount": {
+        "ocr_score": 0.7133333333333333,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 0.15
+      }
+    }
+  }
+}

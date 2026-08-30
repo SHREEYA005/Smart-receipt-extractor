@@ -1,0 +1,68 @@
+{
+  "receipt_id": "X51005806716",
+  "store_name": {
+    "value": ".__ ADVANCO COMPANY",
+    "confidence": 0.8494,
+    "status": "medium"
+  },
+  "date": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "items": [
+    {
+      "name": "A15961 tops{0)",
+      "price": "0.20",
+      "confidence": 0.8081,
+      "status": "medium"
+    },
+    {
+      "name": "A27269 £20",
+      "price": "6.20",
+      "confidence": 0.8682,
+      "status": "high"
+    }
+  ],
+  "total_amount": {
+    "value": 7.0,
+    "confidence": 0.6815,
+    "status": "ambiguous",
+    "alternatives": [
+      {
+        "value": 6.6,
+        "line": "ie Total oa 6.60 O 7.00"
+      }
+    ]
+  },
+  "warnings": [
+    "no valid date found on receipt"
+  ],
+  "meta": {
+    "processing_time_sec": 0.996,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 79.0,
+    "ocr_token_count": 106,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "match",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.7733333333333333,
+        "position_score": 1.0,
+        "pattern_score": 0.8235294117647058,
+        "length_score": 0.76,
+        "tagline_penalty": 0.0
+      },
+      "date": {},
+      "total_amount": {
+        "ocr_score": 0.9475,
+        "keyword_score": 0.55,
+        "pattern_score": 1.0,
+        "consistency_score": 1.0
+      }
+    }
+  }
+}

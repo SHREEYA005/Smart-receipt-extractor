@@ -1,0 +1,50 @@
+{
+  "receipt_id": "6",
+  "store_name": {
+    "value": "momiantoys_ind Cinst",
+    "confidence": 0.7245,
+    "status": "medium"
+  },
+  "date": {
+    "value": "2015-01-26",
+    "confidence": 0.795,
+    "status": "medium"
+  },
+  "items": [],
+  "total_amount": {
+    "value": null,
+    "confidence": 0.0,
+    "status": "missing"
+  },
+  "warnings": [
+    "total amount could not be located",
+    "no line items could be reliably extracted"
+  ],
+  "meta": {
+    "processing_time_sec": 1.635,
+    "ocr_pass": "raw",
+    "ocr_mean_confidence": 73.37,
+    "ocr_token_count": 87,
+    "preprocessing_steps": [
+      "grayscale",
+      "resize"
+    ],
+    "consistency_signal": "insufficient_data",
+    "confidence_components": {
+      "store_name": {
+        "ocr_score": 0.9,
+        "position_score": 0.33333333333333337,
+        "pattern_score": 0.9473684210526315,
+        "length_score": 0.8,
+        "tagline_penalty": 0.0
+      },
+      "date": {
+        "ocr_score": 0.9,
+        "pattern_score": 1.0,
+        "keyword_score": 0.4,
+        "ambiguity_penalty": 0.0
+      },
+      "total_amount": {}
+    }
+  }
+}
